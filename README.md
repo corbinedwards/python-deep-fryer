@@ -16,7 +16,7 @@ Five different images are created for the user to choose from.
 ## Install/Running
 This app requires Pillow, so once the repo is cloned you'll need to install the package in a local environment. There are a couple of ways:
 
-Through [poetry]([https://github.com/pypa/pipx](https://python-poetry.org/))
+Through [poetry](https://python-poetry.org/)
 ```
 cd [repo path]
 poetry install
