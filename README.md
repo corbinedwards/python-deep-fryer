@@ -1,10 +1,10 @@
-# Python Image Frier
+# Python Deep Fryer
 > [!WARNING]
 > This script can create multiple images and override a directory with a certain naming convention.
 > There is a prompt that asks if you want to replace the directory.
 
-This script takes an image and "deep fries" it by applying effects, saving a low quality JPG, then repeating that multiple times.
-Five iterations of "frying" are created for the user's choosing.
+This script takes an image and applies a "deep fry" effect to it. This is done by applying harsh effects, saving a low quality JPG, then repeating multiple times.
+Five different images are created for the user to choose from. 
 
 ## Examples
 ![1](https://github.com/user-attachments/assets/2ad10e2c-b2bf-4e31-8385-987f4468a92b)
@@ -14,4 +14,19 @@ Five iterations of "frying" are created for the user's choosing.
 ![5](https://github.com/user-attachments/assets/24f7a7b7-5a65-48d3-9ccf-889a3a428823)
 
 ## Install/Running
-After cloning this repo,
+This app requires Pillow, so once the repo is cloned you'll need to install the package in a local environment. There are a couple of ways:
+
+Through [poetry]([https://github.com/pypa/pipx](https://python-poetry.org/))
+```
+cd [repo path]
+poetry install
+poetry run python fry.py
+```
+
+Alternatively, you can set up a virtual environment and install Pillow through `requirements.txt`
+```
+cd [repo path]
+python -m venv ./
+./bin/pip install -r requirements.txt
+./bin/python fry.py
+```
