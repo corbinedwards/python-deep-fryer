@@ -6,6 +6,8 @@
 This script takes an image and applies a "deep fry" effect to it. This is done by applying harsh effects, saving a low quality JPG, then repeating multiple times.
 Five different images are created for the user to choose from. 
 
+Created in 2019. Updated in 2026 so other people could build and run it.
+
 ## Examples
 ![1](https://github.com/user-attachments/assets/2ad10e2c-b2bf-4e31-8385-987f4468a92b)
 ![2](https://github.com/user-attachments/assets/b8531265-a394-48c2-a5b6-5111f4ca1c4d)
